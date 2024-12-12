@@ -29,7 +29,7 @@ The frontend consists of static files (HTML, CSS, JavaScript) hosted in an S3 bu
 - Cost efficiency, with charges based on storage and data transfer.
 - Faster access for global users due to reduced latency.
 
-![s3](images/s3.png)
+
 
 ---
 
@@ -42,7 +42,7 @@ The API Gateway serves as the entry point for HTTP requests from the frontend.
 - Provides secure communication.
 - Includes request validation and monitoring features.
 
-![API](images/api.png)
+
 ---
 
 ### Lambda
@@ -55,7 +55,7 @@ Lambda functions handle the application's backend logic.
 - Pay-per-use model.
 - Automatic scaling and high availability.
 
-![lambda](images/lambda.png)
+
 ---
 
 ### DynamoDB
@@ -67,7 +67,7 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 - High throughput and low latency for large datasets.
 - Automatic scaling and encryption at rest for security.
 
-![DynamoDb](images/dynamodb.png)
+
 ---
 
 ## Role of Each Component
@@ -78,7 +78,8 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 
 #### Benefits:
 - Reduces latency and speeds up global content delivery.
-
+![S3](images/s3.png)
+![CloudFront](images/cloud%20front.png)
 ---
 
 ### API Gateway: Managing HTTP Requests
@@ -87,7 +88,7 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 
 #### Benefits:
 - Enhances security and monitoring for HTTP communications.
-
+![API](images/apis.png)
 ---
 
 ### Lambda: Executing Backend Code
@@ -97,6 +98,7 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 - Cost-effective with a pay-per-use model.
 - Automatically scales based on workload.
 
+![lambda](images/lambda.png)
 ---
 
 ### DynamoDB: Storing Data
@@ -106,6 +108,7 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 - High performance with low latency.
 - Built-in security through encryption.
 
+![Dynamodb](images/dynamodbb.png)
 ---
 
 
