@@ -104,7 +104,10 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 - Cost-effective with a pay-per-use model.
 - Automatically scales based on workload.
 
-![lambda](images/lambda.png){width=300px}
+
+<img src="images/lambda.png" alt="lambda" style="width:300px;"/>
+
+
 ---
 
 ### DynamoDB: Storing Data
@@ -114,7 +117,10 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 - High performance with low latency.
 - Built-in security through encryption.
 
-![Dynamodb](images/dynamodbb.png){width=300px}
+
+<img src="images/dynamodbb.png" alt="dynamo db" style="width:300px;"/>
+
+
 ---
 
 
