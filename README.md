@@ -29,6 +29,8 @@ The frontend consists of static files (HTML, CSS, JavaScript) hosted in an S3 bu
 - Cost efficiency, with charges based on storage and data transfer.
 - Faster access for global users due to reduced latency.
 
+![s3](images/s3.png)
+
 ---
 
 ### API Gateway
@@ -40,6 +42,7 @@ The API Gateway serves as the entry point for HTTP requests from the frontend.
 - Provides secure communication.
 - Includes request validation and monitoring features.
 
+![API](images/api.png)
 ---
 
 ### Lambda
@@ -52,6 +55,7 @@ Lambda functions handle the application's backend logic.
 - Pay-per-use model.
 - Automatic scaling and high availability.
 
+![lambda](images/lambda.png)
 ---
 
 ### DynamoDB
@@ -63,6 +67,7 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 - High throughput and low latency for large datasets.
 - Automatic scaling and encryption at rest for security.
 
+![DynamoDb](images/dynamodb.png)
 ---
 
 ## Role of Each Component
