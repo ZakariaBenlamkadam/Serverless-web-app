@@ -103,11 +103,6 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 
 ---
 
-## Diagram
-Refer to the architecture diagram for a visual representation of the system's components and data flow:
-
-![Global Architecture Diagram](Lauch%20a%20serverles%20app.png)
-
 
 ### 3. AWS Configuration
 This section details the steps to configure the necessary AWS services for this project: S3, API Gateway, Lambda, and DynamoDB.
