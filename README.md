@@ -79,8 +79,8 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 #### Benefits:
 - Reduces latency and speeds up global content delivery.
 
-![S3](images/s3.png)
-![CloudFront](images/cloud%20front.png)
+![S3](images/s3.png){width=300px}
+![CloudFront](images/cloud%20front.png){width=300px}
 ---
 
 ### API Gateway: Managing HTTP Requests
@@ -89,7 +89,9 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 
 #### Benefits:
 - Enhances security and monitoring for HTTP communications.
-![API](images/api.png)
+
+- 
+![API](images/api.png){width=300px}
 ---
 
 ### Lambda: Executing Backend Code
@@ -99,7 +101,7 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 - Cost-effective with a pay-per-use model.
 - Automatically scales based on workload.
 
-![lambda](images/lambda.png)
+![lambda](images/lambda.png){width=300px}
 ---
 
 ### DynamoDB: Storing Data
@@ -109,7 +111,7 @@ DynamoDB is a NoSQL database used for storing and retrieving application data.
 - High performance with low latency.
 - Built-in security through encryption.
 
-![Dynamodb](images/dynamodbb.png)
+![Dynamodb](images/dynamodbb.png){width=300px}
 ---
 
 
