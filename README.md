@@ -5,7 +5,7 @@
 ### Global Architecture Diagram
 The system's architecture demonstrates the flow of data between components, as illustrated in the diagram below:
 
-![Global Architecture Diagram](Lauch%20a%20serverles%20app.png)
+![Global Architecture Diagram](/images/Lauch a serverles app.png)
 
 ### Components
 - **Frontend:** Hosted on AWS S3 and delivered through Amazon CloudFront. CloudFront caches static content (HTML, CSS, JavaScript, etc.) at edge locations, ensuring faster load times and improved global performance.
